@@ -2,3 +2,4 @@ Flask
 opencv-python
 numpy
 Pillow
+flask_cors
