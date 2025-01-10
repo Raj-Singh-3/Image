@@ -23,7 +23,7 @@ const UploadImage = () => {
     formData.append('image', image);
 
     try {
-      const response = await fetch('https://image-backend-mk52.onrender.com', {
+      const response = await fetch('https://image-backend-mk52.onrender.com/upload', {
         method: 'POST',
         body: formData,
       });
