@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify, send_file
 import cv2
 import numpy as np
-import os
 from io import BytesIO
 from PIL import Image
 from flask_cors import CORS
@@ -52,6 +51,3 @@ def upload_file():
             return jsonify({'error': str(e)}), 500
     else:
         return jsonify({'error': 'Invalid file type'}), 400
-
-if __name__ == '__main__':
-    app.run(debug=True)
