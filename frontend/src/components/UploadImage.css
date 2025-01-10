@@ -1,0 +1,106 @@
+   .upload-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    animation: slideIn 1s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title-icon {
+    margin-right: 10px;
+    color: #2575fc;
+  }
+  
+  .upload-form {
+    margin-bottom: 30px;
+  }
+  
+  .upload-label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #555;
+  }
+  
+  .upload-input {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+    width: 80%;
+  }
+  
+  .convert-button {
+    padding: 12px 20px;
+    background: #6a11cb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .convert-button:hover {
+    background: #2575fc;
+    transform: scale(1.05);
+  }
+  
+  .result-container {
+    margin-top: 30px;
+  }
+  
+  .cartoon-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .download-button {
+    padding: 12px 20px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .download-button:hover {
+    background: #218838;
+    transform: scale(1.05);
+  }
+  
+  .download-icon {
+    margin-right: 8px;
+  }
+  

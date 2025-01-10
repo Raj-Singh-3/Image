@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  overflow: hidden;
+}
+
+.splash-content {
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.splash-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.splash-title .highlight {
+  color: #ffcc00;
+}
+
+.splash-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.splash-image {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
